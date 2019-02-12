@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#deffffff"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/fondo1"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_android_black_24dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginLeft="40dp"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="Paris | France"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/fondo2"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_archive_black_24dp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginLeft="40dp"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="USA | New York"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/fondo3"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_assistant_photo_black_24dp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginLeft="40dp"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="England | London"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/fondo1"
+        android:layout_marginBottom="10dp"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_beach_access_black_24dp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginLeft="40dp"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="India | Mumbai"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
